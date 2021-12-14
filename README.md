@@ -1,2 +1,4 @@
 # cos
-nwm
+nwm 
+coś do szkoły 
+nie pytać 
