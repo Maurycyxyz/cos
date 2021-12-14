@@ -1,0 +1,42 @@
+{
+	"dbconnect":{
+		"prefix": "dbc",
+		"body": [
+            
+            "<?php",    
+          
+			"\\$dbhost = 'host';",
+			"\\$dbname = 'nazwabazy';",
+			"\\$dbuser = 'uzytkownik';",
+            "\\$dbpass = 'haslo';",
+            "$1",
+            "\\$baza = mysqli_connect(\\$dbhost,\\$dbuser,\\$dbpass);",
+            "if (mysqli_connect_errno()) {",
+            "   exit();",
+            "}",
+            "mysqli_select_db(\\$baza, \\$dbname);",
+            "\\$sql = 'SELECT imie, nazwisko, miasto FROM `tabela` WHERE `coś` = coś';",
+            "\\$dane = mysqli_fetch_assoc(mysqli_query(\\$baza, \\$sql));",
+            "echo 'Jakiś tekst '.\\$dane['imie'].'.';",
+            "?>",
+
+        ],
+
+		"description": ""
+	}
+}
+
+
+
+
+
+
+
+            
+
+ 
+
+
+
+
+
