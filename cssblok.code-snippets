@@ -1,0 +1,19 @@
+{
+	"blok css":{
+		"prefix": "cssblok",
+		"body": [
+            ".blok{",
+			"   width: 250px;",	
+			"   height: 250px;",
+			"   background: #0a0a0a;",
+			"   border:1px solid red;",
+			"   /*float: left;*/",
+			"   /*position: relative;*/",
+			"   /*border-radius: 25px;*/",
+			"}",
+        ],
+
+		"description": "blok css"
+	}
+}
+
